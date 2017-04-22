@@ -25,6 +25,11 @@ hr {
 
 /* Navs and buttons */
 
+#nav {
+position: relative;
+text-align: center;
+}
+
 #nav ul {
     height: 50px;
     margin: 0 0 30px;
@@ -33,10 +38,9 @@ hr {
 }
 
 #nav li {
-    -webkit-transition: color 0.25s;
     transition: color 0.25s;
     display: inline;
-    padding: 0 10px;
+    padding: 30px 10px;
 }
 
 .btn {
@@ -50,11 +54,14 @@ hr {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin-right: 30px;
+    margin-left: 30px;
 }
 
 .btn:hover {
     background: #3aa0e0;
+    color: #000;
     text-decoration: none;
+    cursor: auto;
 }
 
 img {
@@ -86,6 +93,10 @@ h2 {
     margin: 25px auto;
 }
 
+.left, .right {
+  font-size: 16px;
+}
+/* Stars Rating */
 .stars {
     background: #fff;
     height: 40px;
