@@ -41,8 +41,8 @@ hr {
 
 .btn {
     background: #ff8c00;
-    background-image: -o-linear-gradient(top, #ff8c00, #d62a13);
-    background-image: linear-gradient(to bottom, #ff8c00, #d62a13);
+    background-image: -o-linear-gradient(top, #d62a13, #ff8c00);
+    background-image: linear-gradient(to bottom, #d62a13, #ff8c00);
     border-radius: 10px;
     font-family: Courier New;
     color: #000000;
@@ -80,7 +80,8 @@ h2 {
 /* Footer */
 
 #footer {
-    background-color: #ff8c00;
+    background-image: -o-linear-gradient(top, #ff8c00, #d62a13);
+    background-image: linear-gradient(to bottom, #ff8c00, #d62a13);
     padding: 20px;
     margin: 25px auto;
 }
